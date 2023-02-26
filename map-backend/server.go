@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// Open the GeoJSON file
-	geojsonFile, err := os.Open("india_district.geojson")
+	geojsonFile, err := os.Open("schools_data_v2_c.geojson")
 	if err != nil {
 		panic(err)
 	}
